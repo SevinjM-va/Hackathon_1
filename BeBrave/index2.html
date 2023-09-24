@@ -2,16 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style2.html">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script:wght@700&family=Merriweather&family=Montserrat+Alternates:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style2.css">
   <title>Log in</title>
 </head>
 <body>
   
   <main>
-    <div></div>
+    <div>
+      <h2 id="title">Sign up</h2>
+    </div>
+
+      <form class="form-container" action="SignUp">
+        
+        <label id="nameLabel" for="nameInp">Name</label>
+        <div class="inputField" id="input1">
+          <i class="fa-solid fa-user"></i>
+          <input class="nameInp" type="text" placeholder="Your name" >
+        </div>
+
+        <label for="emailInp">Email</label>
+
+        <div class="inputField">
+          <i class="fa-solid fa-envelope"></i>
+          <input  class="emailInp"  type="email" placeholder="Your email" required>
+        </div>
+
+        <label for="passwordInp">Password</label>
+
+        <div class="inputField">
+          <i class="fa-solid fa-lock"></i>
+          <input class="passwordInp" type="password" placeholder="Your password" minlength="8" >
+        </div>
+        <p>Forget password? <a href="#">Click Here</a> </p> 
+        <button class="login" type="submit">Log in</button>
+        <button class="singup"type="submit" >Sign up</button>
+      </form>
+
+      
   </main>
 
-  <script src="script.js>
+  <script src="script.js">
+  </script>
 </body>
 </html>

@@ -46,6 +46,7 @@ li,.lastLi{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
 }
+
 a{
   text-decoration: none;
   color: white
@@ -114,7 +115,6 @@ strong{
 .headDownImg{
   height: 40px;
   width: 60px;
-  
 }
 .headDownTexts {
   font-size: 20px;
