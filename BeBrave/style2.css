@@ -102,15 +102,20 @@ button:hover{
     padding: 10px 30px;
   }
 }
+
+form{
+  width: 80%;
+}
 @media screen and (max-width: 992px) and (min-width: 768px){
-  button{
-    font-size: 10px;
-    margin: 15px;
-    padding: 10px 20px;
+  section {
+    width: 50%;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 576px){
-  main {
+  section {
+    width: 80%;
+  }
+  form{
     width: 80%;
   }
   button{
@@ -120,13 +125,16 @@ button:hover{
   }
 }
 @media screen and (max-width: 576px) {
-  main {
+  section {
     width: 80%;
   }
   button{
     font-size: 15px;
     margin: 5px 10px;
     padding: 10px 40px;
+  }
+  form{
+    width: 80%;
   }
 }
 .buttonStyleWhenClick{
