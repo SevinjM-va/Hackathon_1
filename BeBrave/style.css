@@ -1,0 +1,457 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#menubox{
+  display: flex;
+  align-items: center;
+  width: 13px;
+  max-height: 60vh;
+  visibility: hidden;
+}
+header{
+display: flex;
+z-index: 4;
+background-color: #faa61a;
+position:fixed;
+width: 100%;
+}
+.chechbtn{
+  font-size: 30px;
+  color: white;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+
+}
+#check{
+  display: none;
+}
+.logo-name{
+  display: flex;
+  flex-direction: row;
+  border: none;
+  padding: 0 8px;
+  cursor: pointer;
+  width: 15%;
+  margin-right: 20px;
+}
+.logo,.planImg{
+  width: 70px;
+  height: 70px;
+  padding: 0;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+ul{
+  display: flex;
+}
+li,.lastLi{
+  padding: 0 10px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: white
+}
+.login-sign{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+  padding: 0 20px;
+}
+.login,.signup{
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(4, 4, 190);
+  border: none;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+.login:hover,.signup:hover{
+  background-color: rgb(38, 38, 252);
+}
+select{
+  margin-right: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+#section1{
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-image: url(Media/ИЗУЧЯЕМ\ КОМНАТЫ.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading {
+  font-size: 75px;
+  font-weight: bold;
+  padding: 20px 3px;
+  
+}
+strong{
+  color: red;
+}
+.heading-container{
+  position: absolute;
+  left: 40px;
+  top: 80px;
+  width: 30%;
+  margin-left: 40px;
+  padding: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.headDownImg{
+  height: 40px;
+  width: 60px;
+}
+.headDownTexts {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 0px 0.1px;
+  background-color: rgb(190, 189, 189);
+  margin: 5px 0;
+}
+.section{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sectionheader{
+  display: block;
+}
+.containerdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  
+}
+.teachers,.commentBox{
+  height: 300px;
+  width: 20%;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px 0.5px;
+  cursor: pointer;
+  transition: 1s;
+  background-color: rgb(240, 236, 236);
+}
+.teachers:hover{
+  
+  transform: scale(1.2);
+}
+.teachersImg{
+  display:block;
+  margin-right: auto; 
+  margin: auto;
+  height: 200px;
+  width: 80%;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.goal{
+  height: 300px;
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.sectionheader{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(104, 99, 99);
+  margin: 60px 0;
+}
+.planBox{
+  border:none;
+  box-shadow: 1px 1px 5px 0.3px;
+  border-radius: 20px;
+  width: 25%;
+  height: 440px;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(238, 234, 234);
+  margin: 20px;
+}
+.planCond{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.plan-heading {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.priceContainer{
+  padding: 10px;
+  font-size: 20px;
+}
+.pricebtn{
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #faa61a;
+  font-size: 20px;
+  margin: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.pricebtn:hover{
+  background-color: #c27b01;
+}
+
+
+
+
+
+.containerFeedb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.feedback{
+  font-size: 20px;
+  text-align: center;
+}
+.commentBox{
+  height: 400px;
+  width: 50%;
+  transition: 1s;
+
+}
+.commentBox:hover{
+  transform: scale(1.2);
+}
+.comImgandP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+.studentImg{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding: 20px 0;
+}
+.commentNandC{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.namep{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 10px;
+
+}
+
+.country{
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 10px;
+}
+
+
+
+footer{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(155, 155, 155);
+  margin-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 50PX;
+  width: 100%;
+}
+.footerLogo{
+  height: 200px;
+  width: 200px;
+}
+.footerContainer{
+  display: flex;
+  margin: 50px;
+  width: 90%;
+  height: 200px;
+}
+.footerdiv{
+  justify-content: flex-start;
+  padding-right: 200px;
+  padding-left: 10PX;
+  line-height: 50px;
+  font-size: 23px;
+  height: 200px;
+  cursor: pointer;
+}
+.copyright{
+  margin: 20px;
+  display: flex;
+}
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+  .login,.signup{
+    margin-right: 6px;
+  padding: 8px 13px;
+  font-size: 10px;
+  }
+  .li,.lastLi,a{
+    font-size: 15px;
+  }
+ }
+ @media screen and (max-width: 800px) {
+ #menubox{
+  color: black;
+  width: 10%;
+  font-size: 40px;
+  padding-left: 20px;
+  visibility: visible;
+ }
+ ul{
+  display: block;
+ }
+ header{
+  flex-direction: column;
+  width: 100%;
+  position:static
+ }
+ .logo-name,.navbar{
+  width: 100%;
+ }
+ ul{
+  width: 100%;
+  background-color: #faa61a;
+ }
+ li,.lastLi{
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 25px;
+  overflow: hidden;
+  transition: 1.2s;
+  background-color: #c27b01;
+  max-height: 60vh;
+  overflow: hidden;
+ }
+ li:hover,.lastLi:hover{
+  background-color: #c5aa7c;
+ }
+ .login-sign{
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0 10px;
+  max-height: 60vh;overflow: hidden;
+ }
+ .login,.signup{
+  width: 100%;
+  margin: 5px;
+ }
+.headDownTexts{
+font-size: 18px;
+
+
+}
+.heading-container{
+  width: 70%;
+}
+.heading{
+  padding-top: 3px;
+  font-size: 70px;
+}
+.containerdiv{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.planBox{
+  width: 80%;
+}
+.feedback{
+  font-size: 10px;
+}
+.commentNandC{
+  font-size: 17px;
+}
+h1{
+  text-align: center;
+}
+.teachers{
+  width: 40%;
+}
+footer{
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+}
+.footerContainer{
+  display: block;
+  margin-bottom: 100px;
+}
+.footerdiv{
+  line-height: 30px;
+  font-size: 20px;
+  height: 80px;
+  padding-bottom: 20px;
+  }
+}
+.mystyle {
+  max-height: 0;
+}
